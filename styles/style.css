@@ -1,0 +1,46 @@
+/* banner section's styles start here  */
+.banner {
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-contents {
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.banner-contents h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.banner-contents p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.contact-btn {
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    cursor: pointer;
+}
+
+.contact-btn span {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* banner section's styles end here  */
