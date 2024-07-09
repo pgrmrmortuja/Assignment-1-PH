@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* banner section's styles start here  */
 .banner {
     background-image: url('../assets/Hero-bg.png');
@@ -43,17 +45,18 @@
     font-size: 20px;
     font-weight: 600;
 }
+
 /* banner section's styles end here  */
 
 /* Why Web Development section's styles start here */
-.why-web-development {
+.why-web-development-container {
     padding: 80px 97px 80px 97px;
     text-align: center;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
 }
 
-.why-web-development h2 {
+.why-web-development-container h2 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -61,7 +64,7 @@
     margin-bottom: 16px;
 }
 
-.why-web-development p {
+.why-web-development-container p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -131,4 +134,59 @@
     font-size: 20px;
     font-weight: 600;
 }
+
 /* Why Web Development section's styles end here */
+
+/* My Inspiration section's styles start here */
+.inspiration-container {
+    position: absolute;
+    max-width: 1140px;
+    height: 775px;
+    left: 148px;
+    right: 152px;
+    top: 2340px;
+    bottom: 2130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inspiration-content {
+    margin: 0px 144px;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.inspiration-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.inspiration-container .inspiration-video {
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    position: static;
+    width: 92%;
+    height: 92%;
+    margin-top: 48px;
+}
+
+/* My Inspiration section's styles end here */
