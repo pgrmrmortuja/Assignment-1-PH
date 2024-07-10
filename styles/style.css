@@ -134,11 +134,10 @@
     font-size: 20px;
     font-weight: 600;
 }
-
 /* Why Web Development section's styles end here */
 
 /* My Inspiration section's styles start here */
-.inspiration-container {
+/* .inspiration-container {
     position: absolute;
     max-width: 1140px;
     height: 775px;
@@ -187,6 +186,53 @@
     width: 92%;
     height: 92%;
     margin-top: 48px;
+} */
+/* My Inspiration section's styles end here */
+
+
+
+/* My Inspiration section's styles start here */
+.inspiration-container {
+    padding: 32px;
+    text-align: center;
 }
 
+.inspiration h2 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.inspiration p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 8px;
+}
 /* My Inspiration section's styles end here */
+
+
+
+
+/* My Current Target section's start here */
+/* My Current Target section's end here */
