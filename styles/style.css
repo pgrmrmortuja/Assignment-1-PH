@@ -134,62 +134,8 @@
     font-size: 20px;
     font-weight: 600;
 }
+
 /* Why Web Development section's styles end here */
-
-/* My Inspiration section's styles start here */
-/* .inspiration-container {
-    position: absolute;
-    max-width: 1140px;
-    height: 775px;
-    left: 148px;
-    right: 152px;
-    top: 2340px;
-    bottom: 2130px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.inspiration-content {
-    margin: 0px 144px;
-    position: static;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center
-}
-
-.inspiration-content h1 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-}
-
-.inspiration-content p {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.inspiration-container .inspiration-video {
-    border: 1px solid rgba(13, 19, 33, 0.2);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 32px;
-    position: static;
-    width: 92%;
-    height: 92%;
-    margin-top: 48px;
-} */
-/* My Inspiration section's styles end here */
-
-
 
 /* My Inspiration section's styles start here */
 .inspiration-container {
@@ -199,17 +145,17 @@
 
 .inspiration h2 {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 800;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
     margin-bottom: 16px;
 }
 
 .inspiration p {
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
     margin-bottom: 32px;
 }
 
