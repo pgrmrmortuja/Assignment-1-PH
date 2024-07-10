@@ -39,11 +39,18 @@
     cursor: pointer;
 }
 
-.contact-btn span {
+.contact-btn a {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+
+.contact-btn a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
 }
 
 /* banner section's styles end here  */
@@ -128,11 +135,18 @@
     height: 48px;
 }
 
-.learn-more-btn span {
+.learn-more-btn a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+
+.learn-more-btn a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
 }
 
 /* Why Web Development section's styles end here */
@@ -175,10 +189,208 @@
     border: none;
     border-radius: 8px;
 }
+
 /* My Inspiration section's styles end here */
 
 
 
 
 /* My Current Target section's start here */
+.current-target-container {
+    padding: 32px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.current-target h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-family: Azeret Mono;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.current-target p {
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-weight: 400;
+}
+
+.target-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* Allows wrapping on smaller screens */
+}
+
+.target-card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 23px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin-top: 100px;
+
+}
+
+.html-card {
+    background-color: #ffe5e5;
+}
+
+.css-card {
+    background-color: #e5f0ff;
+}
+
+.js-card {
+    background-color: #fff0e5;
+}
+
+.target-card img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.target-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.target-card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.target-card a {
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
 /* My Current Target section's end here */
+
+
+/* I Need Support section start here */
+.support-container {
+    max-width: 880px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 49px;
+    margin-bottom: 80px;
+    padding: 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+
+}
+
+.support-section-img {
+    background: url('../assets/handshake.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 64px 48px 64px 48px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.support-container h2 {
+    font-size: 32px;
+    font-family: Azeret Mono;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.support-container p {
+    font-size: 16px;
+    font-family: Azeret Mono;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.support-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.support-input {
+    height: 23px;
+    padding: 12px;
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+
+}
+
+.support-button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.support-button:hover {
+    background-color: #12da3d;
+}
+
+/* I Need Support section end here */
+
+/* Footer section start here */
+.footer {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03)
+}
+
+.footer-container {
+    max-width: 946px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+}
+
+.footer p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Footer section end here */
